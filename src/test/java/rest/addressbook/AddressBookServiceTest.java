@@ -221,6 +221,7 @@ public class AddressBookServiceTest {
     // complete the test to ensure that it is safe and idempotent
     //////////////////////////////////////////////////////////////////////
 
+    
     // Similar as the others
     Response responseAux = client.target("http://localhost:8282/contacts")
             .request(MediaType.APPLICATION_JSON).get();
