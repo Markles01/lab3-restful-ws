@@ -31,6 +31,8 @@ import rest.addressbook.domain.Person;
  *   the state of the server.</li>
  * </ul>
  */
+
+// BUG PROBLEM: I think the bug is about how we trate the server status. But Im not sure how to fix it.
 public class AddressBookServiceTest {
 
   private HttpServer server;
